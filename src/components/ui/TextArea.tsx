@@ -12,7 +12,7 @@ export default function Textarea({ label, placeholder, value, onChange }: Textar
     const id = label.toLowerCase().replace(/\s+/g, '-');
 
   return (
-    <div className="flex flex-col gap-3 items-center text-[#f1f1f1]">
+    <div className="flex flex-col gap-3 items-center text-[#f1f1f1] font-mono">
 
       <label htmlFor={id} className="">
         {label}
